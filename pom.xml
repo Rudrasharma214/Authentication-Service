@@ -90,8 +90,8 @@
 		</dependency>
 		<!-- Flyway database migrations -->
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-flyway</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.flywaydb</groupId>
@@ -109,6 +109,12 @@
 			<artifactId>bcprov-jdk18on</artifactId>
 			<version>1.79</version>
 		</dependency>
+		<!-- Spring Boot Actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>
