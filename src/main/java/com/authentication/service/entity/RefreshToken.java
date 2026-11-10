@@ -7,8 +7,10 @@ import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 import jakarta.persistence,Version;
+
 import java.time.Instant;
 import java.util.UUID;
+
 import org.hibernate.annotations.CreationTimestamp;
 
 @Entity
